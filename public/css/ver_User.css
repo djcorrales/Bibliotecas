@@ -1,0 +1,49 @@
+  /* Estilos básicos para la tabla y el modal */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    background-color: #28a745;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

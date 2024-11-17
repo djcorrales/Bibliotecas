@@ -1,0 +1,200 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #4158d0;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 10;
+}
+
+/* Search form styling */
+.search-form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    background-color: #4158d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #3448b5;
+}
+
+/* Table container styling */
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header styling */
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #4158d0;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table body styling */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #f0f0f5;
+}
+
+/* Extra styling for better visuals */
+th, td {
+    border-right: 1px solid #ddd;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+
+/*estilo para los botones*/
+
+/* Botón general */
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4158d0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #3448b5;
+    transform: scale(1.05);
+}
+
+/* Botón de "Prestar Libro" */
+button[type="submit"] {
+    background-color: #28a745; /* Verde */
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Botón de "Ver Libro" */
+button[type="button"] {
+    background-color: #17a2b8; /* Azul claro */
+}
+
+button[type="button"]:hover {
+    background-color: #138496;
+}
+
+/* Botones en la tabla de resultados */
+.table-container table button {
+    margin-right: 5px;
+}
+
+/* Diseño de botones como links */
+a button {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Contenedor del formulario de búsqueda */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Campo de texto del buscador */
+input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Borde e icono de lupa */
+input[type="text"]:focus {
+    border-color: #4158d0;
+}
+
+/* Botón de búsqueda */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4158d0;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #3448b5;
+    transform: scale(1.05);
+}
+
+/* Agrega margen entre el input y otros elementos en la página */
+form + table {
+    margin-top: 20px;
+}
+
+
+
+

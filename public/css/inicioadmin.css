@@ -1,0 +1,82 @@
+/* Estilos generales para el contenedor principal */
+.main {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    gap: 20px; /* Espaciado entre las tarjetas */
+}
+.title{
+    text-align: center;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background-color: #ffffff; /* Fondo blanco para suavidad */
+    color: #333333; /* Texto oscuro para buena legibilidad */
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box; /* Asegura que el padding no cambie el tamaño de la tarjeta */
+    width: 200px; /* Ancho fijo para las tarjetas pequeñas */
+    height: 150px; /* Altura fija */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    right: inherit;
+}
+
+/* Efecto de hover para las tarjetas */ 
+.card:hover {
+    transform: translateY(-5px); /* Efecto sutil al pasar el cursor */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Título de las tarjetas */
+.card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5d5d5d; /* Gris suave para el título */
+    margin-bottom: 10px;
+}
+
+/* Contenido dentro de las tarjetas */
+.card p {
+    font-size: 16px;
+    color: #888888; /* Gris claro para el texto */
+    margin: 0;
+}
+
+/* Estilo para resaltar el número de usuarios registrados */
+.card strong {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4caf50; /* Verde suave para destacar el número */
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Fondo suave de la página */
+body {
+    background-color: #f8f8f8; /* Fondo claro para la página */
+    padding: 0;
+    margin: 0;
+}
+
+/* Sombra ligera para las tarjetas */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

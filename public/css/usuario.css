@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #4158d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+/* Book list title styling */
+.book-list h2 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Table container styling */
+.table-container {
+    max-height: 400px; /* Controla la altura máxima */
+    overflow-y: auto; /* Habilita el scroll solo en el cuerpo de la tabla */
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header styling */
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #4158d0;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table body styling */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #f0f0f5;
+}
+
+/* Extra styling for better visuals */
+th, td {
+    border-right: 1px solid #ddd;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+.header h2 {
+    color: #21d95b; /* Cambia el color */
+    font-size: 24px; /* Cambia el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Cambia el grosor de la fuente */
+}
+.main-content {
+    color: black;
+}
+
+.header h3 {
+    color:#21d95b;
+}
+
+.book-list h3 {
+    color: #333;
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+}
